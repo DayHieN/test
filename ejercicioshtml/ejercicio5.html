@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <form>
+        
+        <h1>Formulario de registro</h1>
+
+       <div>
+            <label>Nombre: </label>    
+            <input required
+                type="text"
+            />
+       </div>
+       <br> 
+       <div>
+           <label>Apellidos: </label>
+           <input required
+                type="text"
+            />
+       </div>
+       <br>
+       <div>
+           <label>Sexo: </label>
+           <input
+                type="radio" id="sexo1"> Hombre
+            <input
+                type="radio" id="sexo2" checked> Mujer 
+       </div>
+       <br>
+       <div>
+            <label>Correo: <label>
+            <input required 
+                maxlength="50" 
+                type="email"
+            />   
+       </div> 
+       <br>
+       <div>
+           <label>Ciudad: </label>
+           <select required>
+               <option selected>Alicante</option>
+               <option>Valencia</option>
+               <option>Castellón</option>
+           </select>
+                
+
+       </div>
+       <br>
+       <div>
+            <label>Descripción: </label>
+            <input 
+                 type="text"
+                 maxlength="255"
+                 rows="0"
+                 col="60"
+
+             />
+        </div>
+        <br>
+        <div>
+            <input type="checkbox">
+            <label>Deseo recibir información sobre novedades y ofertas.</label>
+        </div>
+        <br>
+        <div>
+                <input type="checkbox">
+                <label>Declaro haber leído y aceptado las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        
+
+                 
+    </form>
+</div>
+</body>
+</html>
